@@ -6,27 +6,28 @@
         <title>gpm</title>
         <meta name="description" content="sarasa">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!--link rel="stylesheet" href="css/main.css"-->
-        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700' rel='stylesheet' type='text/css'>    
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <header class="wrapper">
-        	<nav>
+            <img src="images/logo.png" alt="Logo gpm">
+            <nav>
         		<ul>
-        			<li><a href="#intro"></a></li>
+        			<!--li><a href="#intro"></a></li-->
         			<li><a href="#documentation">Documentation</a></li>
         			<li><a href="#contact">Get in touch</a></li>
         		</ul>
         	</nav>
         </header>
 
-        <section class="wrapper"id="intro">
+        <section class="wrapper" id="intro">
         	<h1><strong>Package Manager for Go</strong></h1>
         	<p>gpm is a minimalistic package manager for Go that leverages the power of the go get command and the underlying version control systems used by it to set your Go dependencies.</p>
-        	<button><a href="https://github.com/pote/gpm">Fork me on Github</button>
+        	<h2><a href="https://github.com/pote/gpm">Fork me on Github</a></h2>
         	<img src="images/gpminstall.png" alt="gpm install">
         </section>
 
@@ -36,22 +37,27 @@
         	<p>Go Package Manager makes no assumptions about your dependencies and supports Git, Bazaar and Mercurial hosted Go packages, for a smoother workflow be sure to ckeck out gvp - the Go Versioning Packager wich provides dependency isolation of your projects.</p>
         	
         	<h1>Install in OS X with Homebrew</h1>
-        	<code>$ brew install gpm</code>
+        	<p>$ brew install gpm</p>
 
         	<h1>Install manually on *nix</h1>
-        	<code>$ git clone https://github.com/pote/gpm.git && cd gpm
+        	<p>$ git clone https://github.com/pote/gpm.git && cd gpm
             $ git checkout v1.2.1 # You can ignore this part if you want to install HEAD.
             $ ./configure
-            $ make install</code>
+            $ make install
+            </p>
 
         	<h1>Use directly from GitHub (suggested for CI servers)</h1>
-        	<p>As gpm is a bash script you can always use it directly from GitHub via wget or curl, this is particulary useful for CI servers and other automated environments.</p>
-        	<code>## With wget
+        	<p>As gpm is a bash script you can always use it directly from GitHub via wget or curl, this is particulary useful for CI servers and other automated environments.
+            </p>
+        	<p>## With wget
             $ wget -qO- https://raw.githubusercontent.com/pote/gpm/v1.2.1/bin/gpm | bash
+            </p>
 
-            ## With cURL
-            $ curl -s https://raw.githubusercontent.com/pote/gpm/v1.2.1/bin/gpm | bash</code>
+            <p>## With cURL
+            $ curl -s https://raw.githubusercontent.com/pote/gpm/v1.2.1/bin/gpm | bash
+            </p>
         	<p><strong>NOTE:</strong>You can always use the version on master if you like to live dangerously by piping.
+            </p>
         </section>
 
 </body>
