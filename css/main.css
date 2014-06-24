@@ -33,6 +33,7 @@ header nav a {
 	display: block;
 	text-transform: uppercase;
 	padding: 1em;
+	margin-top: 2em;
 }
 
 /*section wrapper*/
@@ -53,9 +54,12 @@ header nav a {
 	margin: 0em 7em 3em 10em;
 } 
 .wrapper h2 a {
-	border: solid 0.3em red;
+	border: solid 0.3em #fff;
 	padding: 1em;
 	margin: 0 2em 0 5em;
+}
+.wrapper img {
+	margin: 0 4em 0em 7em;
 } 
 .wrapper#intro img {
 	display: block;
@@ -63,9 +67,13 @@ header nav a {
 }
 
 /*section documentation*/
-#documentation h1 {
-	font-size: 1.3em;
-	margin: 0 3em 0 3em;
+.documentation h1 {
+	margin: 0 0em 0 11.5em;
+	text-align: left;
+}
+.documentation p {
+	margin: 0 0em 0 11.5em;
+	text-align: left;
 }
 
 
