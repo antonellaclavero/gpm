@@ -2,6 +2,13 @@
 
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
 
+/*layout*/
+.main-header,
+.wrapper,
+.documentation {
+	padding: 3px 12%;
+}
+
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 }
@@ -25,6 +32,7 @@ header {
 header nav ul {
 	text-align: right;
 	float: right;
+	overflow: auto;
 }
 header nav li {
 	display: inline-block;
@@ -36,44 +44,25 @@ header nav a {
 	margin-top: 2em;
 }
 
-/*section wrapper*/
+/*wrapper*/
+
+/*.main-header.wrapper {
+	background-color: #E82C0C;
+}*/ /*hacer funcionar el background*/
+.main-header,
 .wrapper {
-  /*max-width: 90%;*/
-  margin: 0 auto;
-  clear: both;
-  background-color: #FF3300;
-  overflow: auto;
+	background-color: #E82C0C;
 }
 .wrapper h1 {
 	text-transform: uppercase;
-	margin: 0 0 2em 2em;
 	text-align: center;
-	font-size: 1.3em;
+	margin: 4em 0 1.8em 0;
+	font-size: 2em;
 }
-.wrapper p {
-	margin: 0em 7em 3em 10em;
-} 
-.wrapper h2 a {
-	border: solid 0.3em #fff;
-	padding: 1em;
-	margin: 0 2em 0 5em;
-}
-.wrapper img {
-	margin: 0 4em 0em 7em;
-} 
-.wrapper#intro img {
-	display: block;
-	margin: auto;
+.wrapper h2 {
+	margin: 3em 0 3.5em 0;
+
 }
 
-/*section documentation*/
-.documentation h1 {
-	margin: 0 0em 0 11.5em;
-	text-align: left;
-}
-.documentation p {
-	margin: 0 0em 0 11.5em;
-	text-align: left;
-}
 
 
