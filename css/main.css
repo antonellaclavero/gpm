@@ -5,7 +5,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 /*layout*/
 .main-header,
 .wrapper,
-.documentation {
+.documentation
+.main-footer {
 	padding: 3px 12%;
 }
 
@@ -71,6 +72,8 @@ header img {
 .wrapper img {
 	margin: 0 5em 0 5em;
 }
+
+
 
 
 
