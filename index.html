@@ -7,7 +7,8 @@
         <meta name="description" content="sarasa">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/main.css">
-        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700' rel='stylesheet' type='text/css'>    
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700' rel='stylesheet' type='text/css'> 
+        <link href="themes/prism.css" rel="stylesheet"/>   
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -37,29 +38,29 @@
         	<p>Go Package Manager makes no assumptions about your dependencies and supports Git, Bazaar and Mercurial hosted Go packages, for a smoother workflow be sure to ckeck out gvp - the Go Versioning Packager wich provides dependency isolation of your projects.</p>
         	
         	<h1>Install in OS X with Homebrew</h1>
-        	<p>$ brew install gpm</p>
+        	<code>$ brew install gpm</code>
 
         	<h1>Install manually on *nix</h1>
-        	<p>$ git clone https://github.com/pote/gpm.git && cd gpm
+        	<code>$ git clone https://github.com/pote/gpm.git && cd gpm
             $ git checkout v1.2.1 # You can ignore this part if you want to install HEAD.
             $ ./configure
             $ make install
-            </p>
+            </code>
 
         	<h1>Use directly from GitHub (suggested for CI servers)</h1>
         	<p>As gpm is a bash script you can always use it directly from GitHub via wget or curl, this is particulary useful for CI servers and other automated environments.
             </p>
-        	<p>## With wget
+        	<code>## With wget
             $ wget -qO- https://raw.githubusercontent.com/pote/gpm/v1.2.1/bin/gpm | bash
-            </p>
+            </code>
 
-            <p>## With cURL
+            <code>## With cURL
             $ curl -s https://raw.githubusercontent.com/pote/gpm/v1.2.1/bin/gpm | bash
-            </p>
+            </code>
         	<p><strong>NOTE:</strong>You can always use the version on master if you like to live dangerously by piping.
             </p>
         </section>
-        
+
         <footer class="main-footer" id="contact">
             <ul>
                 <li>
@@ -72,6 +73,8 @@
                 </li>
             </ul>
         </footer>
+
+    <script src="prism.js"></script>
 
 </body>
 </html>
