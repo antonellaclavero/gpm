@@ -96,6 +96,20 @@ code {
 	line-height: 2em;
 }
 
+/*footer*/
+
+.main-footer {
+	background-color: #303030;
+	padding: 1em 2%;
+}
+footer img {
+	opacity: 0.40;
+}
+footer p {
+	text-align: left;
+}
+
+
 
 
 
