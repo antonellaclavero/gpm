@@ -15,12 +15,6 @@ body {
 a {
 	text-decoration: none;
 }
-p {
-	text-align: left;
-	font-size: 1.3em;
-	margin: 0 2em 2em 0;
-	line-height: 1.5em;
-}
 h2 {
 	text-align: center;
 	text-transform: uppercase;
@@ -55,12 +49,12 @@ header img {
 
 .main-header,
 .wrapper {
-	background-color: #E82C0C;
-	height: auto;
+	background-color: #FF0000;
+	max-height: 768px;
 }
 .main-header,
 .wrapper,h1 h2 {
-		color: #FFFFFF;
+		color: #F8F8F8;
 }
 .wrapper h1 {
 	text-transform: uppercase;
@@ -68,9 +62,18 @@ header img {
 	margin: 4em 0 1.8em 0;
 	font-size: 2em;
 }
+/*ver si queda en font-weight 300 0 400*/
+.wrapper p {
+	text-align: center;
+	font-size: 1.3em;
+	color: #F8F8F8;
+	line-height: 1.5em;
+	font-weight: 300;
+}
+/*agregar borde y color a "fork me"*/
 .wrapper h2 {
 	margin: 3em 0 3.5em 0;
-}/*agregar borde y color a "fork me"*/
+}
 .wrapper img {
 	max-width: 100%;
 }
@@ -80,8 +83,18 @@ header img {
 .documentation h1 {
 	font-size: 2em;
 	margin: 2.5em 0 1em 0em;
+	color: #303030;
 }
-
+.documentation p {
+	text-align: left;
+	font-size: 1.2em;
+	margin: 0 2em 2em 0;
+	line-height: 1.5em;
+	color: #303030;
+}
+code {
+	line-height: 2em;
+}
 
 
 
