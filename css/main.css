@@ -113,9 +113,13 @@ code {
 
 /*footer*/
 
+footer img {
+	opacity: 0.40;
+}
 .main-footer {
 	background-color: #303030;
 	padding: 1em 2%;
+	overflow: auto;
 }
 .main-footer p {
 	text-align: right;
@@ -127,12 +131,10 @@ code {
 .main-footer a:hover {
 	color: #FF0000;
 }
-footer img {
-	opacity: 0.40;
-}
 .site {
 	font-weight: 300;
 }
+
 
 
 
