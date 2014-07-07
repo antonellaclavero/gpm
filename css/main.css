@@ -63,15 +63,13 @@ header img {
 	margin: 4em 0 1.8em 0;
 	font-size: 2em;
 }
-/*ver si queda en font-weight 300 0 400*/
 .wrapper p {
 	text-align: center;
 	font-size: 1.3em;
 	color: #F8F8F8;
 	line-height: 1.5em;
-	font-weight: 300;
+	font-weight: 400;
 }
-/*agregar borde y color a "fork me"*/
 .wrapper h2 {
 	margin: 3em 0 3.5em 0;
 }
@@ -99,6 +97,12 @@ a.button {
 	margin: 0 2em 2em 0;
 	line-height: 1.5em;
 	color: #303030;
+}
+p.note {
+	margin-bottom: 5em;
+}
+.note strong {
+	font-weight: 600;
 }
 code {
 	line-height: 2em;
