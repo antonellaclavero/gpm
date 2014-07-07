@@ -117,6 +117,9 @@ code {
 .main-footer a {
 	color: #909090;
 }
+.main-footer a:hover {
+	color: #FF0000;
+}
 footer img {
 	opacity: 0.40;
 }
