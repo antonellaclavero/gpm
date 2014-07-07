@@ -5,7 +5,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 /*layout*/
 .main-header,
 .wrapper,
-.documentation {
+.documentation,
+.main-footer {
 	padding: 3px 12%;
 }
 
@@ -41,7 +42,7 @@ header nav a {
 	color: #FFFFFF;
 }
 header img {
-	margin: 2em 2em;
+	margin: 2em -4.5em;
 	float: left;
 }
 
@@ -74,6 +75,13 @@ header img {
 .wrapper h2 {
 	margin: 3em 0 3.5em 0;
 }
+a.button {
+	border: solid 2px #F8F8F8;
+	padding: 0.8em 3%;
+	border-radius: 0.5em;
+	color: #F8F8F8;
+	
+}
 .wrapper img {
 	max-width: 100%;
 }
@@ -102,12 +110,17 @@ code {
 	background-color: #303030;
 	padding: 1em 2%;
 }
+.main-footer p {
+	text-align: right;
+	color: #909090;
+}
+.main-footer a {
+	color: #909090;
+}
 footer img {
 	opacity: 0.40;
 }
-footer p {
-	text-align: left;
-}
+
 
 
 
