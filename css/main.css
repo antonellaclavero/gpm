@@ -88,6 +88,7 @@ a.button {
 	max-width: 100%;
 	position: relative;
 	top: 6px;
+	overflow: auto;
 }
 
 /*documentation*/
@@ -112,7 +113,7 @@ p.note {
 }
 code {
 	line-height: 2em;
-	/*margin: 1em;*/
+	margin: 1em;
 }
 pre.language-css {
 	border: solid 2px #C0C0C0;
