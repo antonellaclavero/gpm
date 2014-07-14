@@ -111,12 +111,17 @@ p.note {
 .note strong {
 	font-weight: 600;
 }
+
+/*code*/
+
 code {
 	line-height: 2em;
 }
 pre.language-css {
 	border: solid 2px #C0C0C0;
 	border-radius: 0.5em;
+	max-height: 192px;
+	max-width: 862px;
 }
 
 /*footer*/
