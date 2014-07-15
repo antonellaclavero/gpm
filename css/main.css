@@ -32,20 +32,19 @@ header {
 header nav ul {
 	text-align: right;
 	float: right;
-	overflow: auto;
 }
 header nav li {
 	display: inline-block;
+	margin-top: 2em;
 }
 header nav a {
 	display: block;
 	text-transform: uppercase;
-	padding: 1em;
-	margin-top: 2em;
+	padding: 20px 35px;
 	color: #FFFFFF;
 }
 header img {
-	margin: 2em -4.5em;
+	margin: 2em auto;
 	float: left;
 }
 
@@ -116,6 +115,7 @@ p.note {
 
 code {
 	line-height: 2em;
+	text-align: left;
 }
 pre.language-css {
 	border: solid 2px #C0C0C0;
@@ -148,9 +148,31 @@ footer img {
 	font-weight: 300;
 }
 
+/*media queries*/
+@media screen and (max-width: 1280px) {
+  .main-header section header {
+    height: 7em;
+  }
+}
+@media screen and (max-width: 960px) {
+  .documentation section {
+    margin-right: 0;
+    width: 100%;
+    float: none;
+  }
+}
 
-
-
-
+/*@media screen and (max-width: 1280px) {
+  .prod-group-trio section header {
+    height: 7em;
+  }
+}
+@media screen and (max-width: 960px) {
+  .prod-group-trio section {
+    margin-right: 0;
+    width: 100%;
+    float: none;
+  }
+}*/
 
 
