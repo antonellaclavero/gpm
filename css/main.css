@@ -30,8 +30,8 @@ header {
 	overflow: auto;
 }
 header nav ul {
-	text-align: right;
 	float: right;
+	position: relative;
 }
 header nav li {
 	display: inline-block;
@@ -46,6 +46,7 @@ header nav a {
 header img {
 	margin: 2em auto;
 	float: left;
+	position: relative;
 }
 
 /*wrapper*/
