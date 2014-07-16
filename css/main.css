@@ -88,7 +88,7 @@ a.button {
 	position: relative;
 	top: 6px;
 	overflow: auto;
-	display: block;
+	margin-left: 0.5em;
 }
 
 /*documentation*/
