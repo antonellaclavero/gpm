@@ -46,7 +46,6 @@ header nav a {
 header img {
 	margin: 2em auto;
 	float: left;
-	position: relative;
 }
 
 /*wrapper*/
@@ -121,8 +120,7 @@ code {
 pre.language-css {
 	border: solid 2px #C0C0C0;
 	border-radius: 0.5em;
-	max-height: 192px;
-	max-width: 862px;
+	max-width: 100%;
 }
 
 /*footer*/
@@ -150,6 +148,7 @@ footer img {
 }
 
 /*media queries*/
+
 @media screen and (max-width: 1280px) {
   .main-header section header {
     height: 7em;
