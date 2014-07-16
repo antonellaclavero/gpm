@@ -88,6 +88,7 @@ a.button {
 	position: relative;
 	top: 6px;
 	overflow: auto;
+	display: block;
 }
 
 /*documentation*/
