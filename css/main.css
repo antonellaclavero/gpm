@@ -54,8 +54,6 @@ header img {
 .main-header,
 .wrapper {
 	background-color: #FF0000;
-	max-height: 768px;
-	overflow: auto;
 }
 .main-header,
 .wrapper,h1 h2 {
@@ -85,10 +83,9 @@ a.button {
 	
 }
 .wrapper img {
+	display: block;
 	max-width: 100%;
-	position: relative;
-	top: 6px;
-	overflow: auto;
+	margin: 0 auto;
 }
 
 /*documentation*/
