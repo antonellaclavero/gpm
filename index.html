@@ -18,42 +18,42 @@
         <header class="main-header">
             <img src="images/logo.png" alt="Logo gpm">
             <nav>
-        		<ul>
-        			<li><a href="#documentation">Documentation</a></li>
-        			<li><a href="#contact">Get in touch</a></li>
-        		</ul>
-        	</nav>
+                <ul>
+                    <li><a href="#documentation">Documentation</a></li>
+                    <li><a href="#contact">Get in touch</a></li>
+                </ul>
+            </nav>
         </header>
 
         <section class="wrapper" id="intro">
-        	<h1>Package Manager for Go</h1>
-        	<p><strong>gpm is a minimalistic package manager for Go that leverages the power of the go get command and the underlying version control systems used by it to set your Go dependencies.</strong></p>
-        	<h2><a class="button" href="https://github.com/pote/gpm">Fork me on Github</a></h2>
+            <h1>Package Manager for Go</h1>
+            <p><strong>gpm is a minimalistic package manager for Go that leverages the power of the go get command and the underlying version control systems used by it to set your Go dependencies.</strong></p>
+            <h2><a class="button" href="https://github.com/pote/gpm">Fork me on Github</a></h2>
             <img src="images/gpminstall.png" alt= "Conosola instalación">
         </section>
 
         <section class="documentation" id="documentation">
-        	<h1><strong>Pain free package management</strong></h1>
-        	<p>gpm is a minimalistic package manager for Go that leverages the power of the go get command and the underlying version control systems used by it to set your Go dependencies to desired versions,thus allowing easily reproducible builds in your Go projects.</p>
-        	<p>Go Package Manager makes no assumptions about your dependencies and supports Git, Bazaar and Mercurial hosted Go packages, for a smoother workflow be sure to ckeck out gvp - the Go Versioning Packager wich provides dependency isolation of your projects.</p>
-        	
-        	<h1>Install in OS X with Homebrew</h1>
-        	<pre><code class="language-css">
+            <h1><strong>Pain free package management</strong></h1>
+            <p>gpm is a minimalistic package manager for Go that leverages the power of the go get command and the underlying version control systems used by it to set your Go dependencies to desired versions,thus allowing easily reproducible builds in your Go projects.</p>
+            <p>Go Package Manager makes no assumptions about your dependencies and supports Git, Bazaar and Mercurial hosted Go packages, for a smoother workflow be sure to ckeck out gvp - the Go Versioning Packager wich provides dependency isolation of your projects.</p>
+            
+            <h1>Install in OS X with Homebrew</h1>
+            <pre><code class="language-css">
             $ brew install gpm
             </code></pre>
 
-        	<h1>Install manually on *nix</h1>
-        	<pre><code class="language-css">
+            <h1>Install manually on *nix</h1>
+            <pre><code class="language-css">
             $ git clone https://github.com/pote/gpm.git && cd gpm
             $ git checkout v1.2.1 # You can ignore this part if you want to install HEAD.
             $ ./configure
             $ make install
             </code></pre>
 
-        	<h1>Use directly from GitHub (suggested for CI servers)</h1>
-        	<p>As gpm is a bash script you can always use it directly from GitHub via wget or curl, this is particulary useful for CI servers and other automated environments.
+            <h1>Use directly from GitHub (suggested for CI servers)</h1>
+            <p>As gpm is a bash script you can always use it directly from GitHub via wget or curl, this is particulary useful for CI servers and other automated environments.
             </p>
-        	<pre><code class="language-css">
+            <pre><code class="language-css">
             ## With wget
             $ wget -qO- https://raw.githubusercontent.com/pote/gpm/v1.2.1/bin/gpm | bash
             </code></pre>
@@ -62,7 +62,7 @@
             ## With cURL
             $ curl -s https://raw.githubusercontent.com/pote/gpm/v1.2.1/bin/gpm | bash
             </code></pre>
-        	<p class= "note"><strong>NOTE:</strong> You can always use the version on master if you like to live dangerously by piping.
+            <p class= "note"><strong>NOTE:</strong> You can always use the version on master if you like to live dangerously by piping.
             </p>
         </section>
 
