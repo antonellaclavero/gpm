@@ -8,7 +8,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .wrapper,
 .documentation,
 .main-footer {
-	padding: 3px 12%;
+	/*padding: 3px 12%;*/
+	padding: 1px 17%;
 }
 
 /*body*/
@@ -84,14 +85,12 @@ a.button {
 .wrapper img {
 	display: block;
 	max-width: 100%;
-<<<<<<< HEAD
-	position: relative;
+	/*position: relative;
 	top: 6px;
 	overflow: auto;
-	margin-left: 0.5em;
-=======
+	margin-left: 0.5em;*/
 	margin: 0 auto;
->>>>>>> master
+
 }
 
 /*documentation*/
@@ -153,7 +152,7 @@ footer img {
 
 /*media queries*/
 
-<<<<<<< HEAD
+/*<<<<<<< HEAD
 @media screen and (max-width: 1280px) {
   .main-header section header {
     height: 7em;
@@ -166,7 +165,8 @@ footer img {
     float: none;
   }
 }
-=======
+=======*/
+
 /*responsive*/
 
 @media (max-width: 700px){
@@ -198,8 +198,6 @@ footer img {
 	}
 }
 
-
->>>>>>> master
 
 
 

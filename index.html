@@ -18,19 +18,11 @@
         <header class="main-header">
             <img src="images/logo.png" alt="Logo gpm">
             <nav>
-<<<<<<< HEAD
-        		<ul class="main-nav">
-        			<li><a href="#documentation">Documentation</a></li>
-        			<li><a href="#contact">Get in touch</a></li>
-        		</ul>
-        	</nav>
-=======
                 <ul>
                     <li><a href="#documentation">Documentation</a></li>
                     <li><a href="#contact">Get in touch</a></li>
                 </ul>
             </nav>
->>>>>>> master
         </header>
 
         <section class="wrapper" id="intro">
@@ -47,28 +39,28 @@
             
             <h1>Install in OS X with Homebrew</h1>
             <pre><code class="language-css">
-$ brew install gpm
+    $ brew install gpm
             </code></pre>
 
             <h1>Install manually on *nix</h1>
             <pre><code class="language-css">
-$ git clone https://github.com/pote/gpm.git && cd gpm
-$ git checkout v1.2.1 # You can ignore this part if you want to install HEAD.
-$ ./configure
-$ make install
+    $ git clone https://github.com/pote/gpm.git && cd gpm
+    $ git checkout v1.2.1 # You can ignore this part if you want to install HEAD.
+    $ ./configure
+    $ make install
             </code></pre>
 
             <h1>Use directly from GitHub (suggested for CI servers)</h1>
             <p>As gpm is a bash script you can always use it directly from GitHub via wget or curl, this is particulary useful for CI servers and other automated environments.
             </p>
             <pre><code class="language-css">
-## With wget
-$ wget -qO- https://raw.githubusercontent.com/pote/gpm/v1.2.1/bin/gpm | bash
+    ## With wget
+    $ wget -qO- https://raw.githubusercontent.com/pote/gpm/v1.2.1/bin/gpm | bash
             </code></pre>
 
             <pre><code class="language-css">
-## With cURL
-$ curl -s https://raw.githubusercontent.com/pote/gpm/v1.2.1/bin/gpm | bash
+    ## With cURL
+    $ curl -s https://raw.githubusercontent.com/pote/gpm/v1.2.1/bin/gpm | bash
             </code></pre>
             <p class= "note"><strong>NOTE:</strong> You can always use the version on master if you like to live dangerously by piping.
             </p>
