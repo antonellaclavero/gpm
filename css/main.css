@@ -54,8 +54,6 @@ header img {
 .main-header,
 .wrapper {
 	background-color: #FF0000;
-	max-height: 768px;
-	overflow: auto;
 }
 .main-header,
 .wrapper,h1 h2 {
@@ -85,10 +83,9 @@ a.button {
 	
 }
 .wrapper img {
+	display: block;
 	max-width: 100%;
-	position: relative;
-	top: 6px;
-	overflow: auto;
+	margin: 0 auto;
 }
 
 /*documentation*/
@@ -144,6 +141,36 @@ footer img {
 }
 
 
+/*responsive*/
+
+@media (max-width: 700px){
+	header img {
+		margin: 1em 0;
+	}
+}
+@media (max-width: 512px){
+	.main-header {
+		padding-top: 2em;
+	}
+	header img {
+		float: none;
+		display: block;
+		margin: 0 auto 2em;
+	}
+	header nav ul {
+		float: none;
+		text-align: center;
+	}
+	header nav li {
+		display: block;
+	}
+	header nav a {
+		margin: 0;
+	}
+	.wrapper h1 {
+		margin-top: 1.75em;
+	}
+}
 
 
 
